@@ -128,10 +128,6 @@ body {
     font-size: 1.9rem;
     color: #a5c7b7;
 }
-#modal-textbox2 h1 {
-    color: #a5c7b7;
-    font-size: 2rem;
-}
 #modal3 {
     background-color:rgba(93, 66, 87,.6);
 	position: fixed;
@@ -216,18 +212,18 @@ body {
     font-size: 1.9rem;
     color: #a5c7b7;
 }
-
 h1 {
     margin: 0 auto;
 }
 .content {
     display: flex;
+   
 }
-
-
-
-
-.btn-container {
+.btcontainer{
+    margin-left: 20px;
+    margin-top: -30px;
+}
+/* .btn-container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -239,19 +235,13 @@ h1 {
     width: 50%;
     height: 600px;
     flex-wrap: wrap;
-}
+} */
 .btn-row{
     height: 5vh;
     width: 25vw;
     display: flex;
     justify-content: space-around;  
     margin-bottom: 23px;
-}
-.btn-r{
-    justify-content: space-around; 
-    height: 5vh;
-    width: 25vw; 
-    padding-left: 10px;
 }
 .button { 
     display: flex;
@@ -348,9 +338,8 @@ h1 {
     flex-direction: row;
     /* justify-content: space-between; */
     width: 70%;
-    letter-spacing: .2rem;
-    
-   
+    letter-spacing: .2rem;  
+    margin-top: -30px;
 }
 .scores h2 {
     border: 2px solid rgba(93, 66, 87,.6);
