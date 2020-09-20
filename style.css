@@ -55,7 +55,7 @@ body {
 }
 #modal-textbox {
 	background-color: #a5c7b7;
-	height: 550px;
+	height: 350px;
 	width: 750px;
 	border-radius: 2px;
 	margin: 150px auto;
@@ -72,7 +72,7 @@ body {
 	background-color: rgba(93, 66, 87,.6);
 	border: none;
 	outline: none;
-	border-radius: 50%;
+	border-radius: 20%;
     cursor: pointer;
     border: 2px solid white;
     box-shadow: 0  0 40px 10px;
@@ -80,14 +80,14 @@ body {
     color: white;  
 }
 #modal-textbox p {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 #modal-textbox h1 {
-    color: #a5c7b7;
-    font-size: 2rem;
+    color: white;
+    font-size: 1.6rem;
 }
 #modal2 {
-	background-color:rgba(93, 66, 87,.6);
+    background-color:rgba(93, 66, 87,.6);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -99,8 +99,8 @@ body {
     display: none;
 }
 #modal-textbox2 {
-	background-color: rgb(93, 66, 87);
-	height: 350px;
+    background-color: rgb(93, 66, 87);
+	height: 250px;
 	width: 550px;
 	border-radius: 2px;
 	margin: 150px auto;
@@ -113,25 +113,27 @@ body {
 	text-align: right;
 }
 .modal-buttons2 {
-	padding: 14px 18px;
-	background-color: rgb(93, 66, 87);
+    padding: 0px 20px;
+	background-color: rgba(93, 66, 87,.6);
 	border: none;
 	outline: none;
-	border-radius: 3px;
+	border-radius: 20%;
     cursor: pointer;
-    border: 2px solid rgb(93, 66, 87);
-    box-shadow: 0  0 2px 2px;
-    font-size: 2rem;
+    border: 2px solid white;
+    box-shadow: 0  0 40px 10px;
+    font-size: 2rem; 
+    color: white; 
 }
 #modal-textbox2 p {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
+    color: #a5c7b7;
 }
 #modal-textbox2 h1 {
     color: #a5c7b7;
     font-size: 2rem;
 }
 #modal3 {
-	background-color: rgb(93, 66, 87);
+    background-color:rgba(93, 66, 87,.6);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -143,8 +145,8 @@ body {
     display: none;
 }
 #modal-textbox3 {
-	background-color:rgb(93, 66, 87);
-	height: 350px;
+    background-color: rgb(93, 66, 87);
+	height: 250px;
 	width: 550px;
 	border-radius: 2px;
 	margin: 150px auto;
@@ -157,25 +159,23 @@ body {
 	text-align: right;
 }
 .modal-buttons3 {
-	padding: 14px 18px;
-	background-color:rgb(93, 66, 87);
+	padding: 0px 20px;
+	background-color: rgba(93, 66, 87,.6);
 	border: none;
 	outline: none;
-	border-radius: 3px;
+	border-radius: 20%;
     cursor: pointer;
-    border: 2px solid rgba(93, 66, 87,.6);
-    box-shadow: 0  0 2px 2px;
-    font-size: 2rem;
+    border: 2px solid white;
+    box-shadow: 0  0 40px 10px;
+    font-size: 2rem; 
+    color: white;  
 }
 #modal-textbox3 p {
-    font-size: 1.7rem;
-}
-#modal-textbox3 h1 {
+    font-size: 1.9rem;
     color: #a5c7b7;
-    font-size: 2rem;
 }
 #modal4 {
-	background-color: rgb(93, 66, 87);
+    background-color:rgba(93, 66, 87,.6);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -188,38 +188,35 @@ body {
 }
 #modal-textbox4 {
     background-color: rgb(93, 66, 87);
-    /* #a5c7b7; */
-	height: 400px;
-	width: 500px;
+	height: 250px;
+	width: 550px;
 	border-radius: 2px;
 	margin: 150px auto;
     box-shadow: 0  0 4px 4px;
     padding: 2%;
     line-height: 300%;
     font-size: .8rem;
-    z-index: 1;
 }
 #modal-footer4 {
 	text-align: right;
 }
 .modal-buttons4 {
-	padding: 14px 18px;
-	background-color: rgb(93, 66, 87);
+	padding: 0px 20px;
+	background-color: rgba(93, 66, 87,.6);
 	border: none;
 	outline: none;
-	border-radius: 3px;
+	border-radius: 20%;
     cursor: pointer;
-    border: 2px solid rgb(93, 66, 87);
-    box-shadow: 0  0 2px 2px;
-    font-size: 2rem;
+    border: 2px solid white;
+    box-shadow: 0  0 40px 10px;
+    font-size: 2rem; 
+    color: white; 
 }
 #modal-textbox4 p {
-    font-size: 1.7rem;
-}
-#modal-textbox4 h1 {
+    font-size: 1.9rem;
     color: #a5c7b7;
-    font-size: 2rem;
 }
+
 h1 {
     margin: 0 auto;
 }
@@ -238,17 +235,23 @@ h1 {
     background-color: #a5c7b7;
     border-radius: 5px;
     border: 2px solid #b5dcca;
-    box-shadow: 0 0 1px 1px;
-    
-    width: 45%;
+    box-shadow: 0 0 20px 1px;  
+    width: 50%;
+    height: 600px;
+    flex-wrap: wrap;
 }
 .btn-row{
-    height: 6vh;
-    width: 20vw;
+    height: 5vh;
+    width: 25vw;
     display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    justify-content: space-around;  
+    margin-bottom: 23px;
+}
+.btn-r{
+    justify-content: space-around; 
+    height: 5vh;
+    width: 25vw; 
+    padding-left: 10px;
 }
 .button { 
     display: flex;
@@ -261,16 +264,16 @@ h1 {
     box-shadow: 0 0 10px 4px;
     font-size: 1.5rem;
     cursor: pointer;
+  
 }
 .hangman-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 65%;
+    width: 75%;
     background-color:  #a5c7b7;
-    margin: 10px 20px;
-    height: 900px;
-    
+    margin: 10px 30px 0px 30px;
+    height: 600px;
     border-radius: 5px;
     border: 2px solid #a5c7b7;
     box-shadow: 0 0 10px 5px;
@@ -297,16 +300,17 @@ h1 {
     border: 2px solid #a5c7b7;
     border-radius: 50%;
     background-color:rgba(93, 66, 87,.6);
-    box-shadow: 0 0 40px 10px;
-    padding: 25px;
+    box-shadow: 10px 0px 40px 10px;
+    padding: 15px 20px 50px 20px;
     color: white;
+    
 }
 .letters-remaining {
     border: 2px solid #a5c7b7;
     border-radius: 50%;
     background-color:rgba(93, 66, 87,.6);
     box-shadow: 0 0 40px 10px;
-    padding: 25px;
+    padding: 15px 20px 50px 20px;
     color: white;
 }
 .hangman {
@@ -316,8 +320,9 @@ h1 {
     align-items: center;
 }
 #hangman-pictures {
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 120%;
+    margin-top: 60px;
 }
 .guess-container {
     display: flex;
@@ -341,9 +346,11 @@ h1 {
 .scores {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     width: 70%;
     letter-spacing: .2rem;
+    
+   
 }
 .scores h2 {
     border: 2px solid rgba(93, 66, 87,.6);
@@ -358,4 +365,7 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+.playerTwo{
+    padding-left: 20px;
 }
