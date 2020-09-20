@@ -23,8 +23,8 @@ body {
     flex-direction: column;
     background-color: #5d4257 ;
     background-image: linear-gradient(315deg, #5d4257 50%, #a5c7b7 84%);
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
     color: #5d4257;
 }
@@ -68,7 +68,7 @@ body {
 	text-align: right;
 }
 .modal-buttons { 
-	padding: 0px 20px;
+	padding: 0% 2%;
 	background-color: rgba(93, 66, 87,.6);
 	border: none;
 	outline: none;
@@ -223,19 +223,6 @@ h1 {
     margin-left: 20px;
     margin-top: -30px;
 }
-/* .btn-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 10px 30px;
-    background-color: #a5c7b7;
-    border-radius: 5px;
-    border: 2px solid #b5dcca;
-    box-shadow: 0 0 20px 1px;  
-    width: 50%;
-    height: 600px;
-    flex-wrap: wrap;
-} */
 .btn-row{
     height: 5vh;
     width: 25vw;
@@ -253,8 +240,7 @@ h1 {
     background-color: #a5c7b7;
     box-shadow: 0 0 10px 4px;
     font-size: 1.5rem;
-    cursor: pointer;
-  
+    cursor: pointer; 
 }
 .hangman-container {
     display: flex;
@@ -293,7 +279,6 @@ h1 {
     box-shadow: 10px 0px 40px 10px;
     padding: 15px 20px 50px 20px;
     color: white;
-    
 }
 .letters-remaining {
     border: 2px solid #a5c7b7;
@@ -322,13 +307,9 @@ h1 {
     font-size: 5vw;
     letter-spacing: 2rem;
 }
-/* .guess {
-    margin-bottom: 10%;
-} */
 .score-bar {
     display: flex;
     flex-direction: row;
-    /* margin-bottom: 5%;  */
 }
 .empty-space {
     width: 30%;
@@ -336,7 +317,6 @@ h1 {
 .scores {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     width: 70%;
     letter-spacing: .2rem;  
     margin-top: -30px;
